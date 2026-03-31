@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mənim Səhifəm</title>
+    <style>
+        body{
+            font-family: Arial;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        h1{
+            color: darkblue;
+        }
+
+        .card{
+            background: white;
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        button{
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Salam!</h1>
+
+<div class="card">
+    <img src="https://via.placeholder.com/200" alt="Şəkil">
+    <p>Bu sadə bir HTML kart nümunəsidir.</p>
+    <button onclick="mesaj()">Klik et</button>
+</div>
+
+<script>
+function mesaj(){
+    alert("Düyməyə klik etdin!");
+}
+</script>
+
+</body>
+</html>
